@@ -1,4 +1,4 @@
-const birthday = new Date(2025, 5, 21, 10, 52); // Paul's birthday
+const birthday = new Date(2025, 6, 21, 10, 52); // Paul's birthday
 let ageFormat = 0; // Current age format
 const ageUnits = ['year', 'month', 'day', 'hour', 'minute', 'second'];
 const displayedAgeElement = document.getElementById('displayedAge');
