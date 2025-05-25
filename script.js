@@ -1,4 +1,5 @@
 const birthday = new Date(2025, 4, 21, 10, 52);
+let ageFormat = 0;
 const ageUnits = ['year', 'month', 'day', 'hour', 'minute', 'second'];
 const displayedAgeElement = document.getElementById('displayedAge');
 
