@@ -1,4 +1,4 @@
-const birthday = new Date(2025, 4, 21, 10, 52); // Pauls Geburtstaglet ageFormat = 0; // Current age format
+const birthday = new Date(2025, 4, 21, 10, 52);
 const ageUnits = ['year', 'month', 'day', 'hour', 'minute', 'second'];
 const displayedAgeElement = document.getElementById('displayedAge');
 
@@ -33,4 +33,4 @@ function switchAgeFormat() {
 
 // Update age every second
 setInterval(updateDisplayedAge, 1000);
-updateDisplayedAge(); // Initial display
+updateDisplayedAge();
